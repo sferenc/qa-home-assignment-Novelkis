@@ -1,0 +1,21 @@
+{
+  "name": "qa-home-assignment-novelkis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "test": "cypress run",
+    "test:ui": "cypress run --spec 'cypress/e2e/ui/**/*.cy.ts'",
+    "test:api": "cypress run --spec 'cypress/e2e/api/**/*.cy.ts'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "cypress": "^15.13.0",
+    "dotenv": "^17.3.1",
+    "typescript": "^5.9.2"
+  }
+}
